@@ -147,10 +147,10 @@ dwfPerHero %>%
 
 bySeasons <- tidyData %>%
   filter(speaker %in% mainCharacters) %>%
-  inner_join(get_sentiments("bing")) %>%
-  count(speaker, season, sentiment) %>%
-  spread(sentiment, n, fill = 0) %>%
-  mutate(sentiment = positive - negative) 
+  inner_join(get_sentiments("afinn")) %>%
+  group_by(season, speaker) %>%
+  summarise(sentiment = sum(score)) %>%
+  ungroup()
 
 ggplot(bySeasons, aes(season, sentiment, fill = speaker)) +
   geom_bar(stat = "identity") +
