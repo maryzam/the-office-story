@@ -5,7 +5,7 @@ import '../../styles/sentiment-dynamics.css';
 
 import { getWindowHeight } from "../utils/utils"
 
-import source from "../../data/sentiments/by_seasons.json";
+import source from "../../data/sentiments/by_seasons.bing.json";
 
 const maxSentiment = d3.max(source, (d) => d3.max(d.stats, (x) => x.sentiment));
 const minSentiment = d3.min(source, (d) => d3.min(d.stats, (x) => x.sentiment));
@@ -17,12 +17,11 @@ prepareSourceData();
 
 const visOffset = 100;
 const animDuration = 600;
-const margin = 10;
+const margin = 15;
 
 class SentimentDynamics extends React.Component {
 
 	state = {
-		prevSeason: null,
 		season: 1,
 		playing: false
 	}
@@ -50,7 +49,7 @@ class SentimentDynamics extends React.Component {
 
 		// update scales
 		const chartHeight = height - 2 * margin;
-		this.scaleSentiment.range([0, chartHeight]);
+		this.scaleSentiment.range([chartHeight, 0]);
 		this.scaleCharacters.range([0, width]);
 
 		const baseLine = this.scaleSentiment(0);
@@ -95,20 +94,21 @@ class SentimentDynamics extends React.Component {
 		const data = this.getVizData();
 		const chart = this.container.select("g");
 		
-		this.areaData = this.area(data); // save for transations
-
 		chart.select("path")
 				.transition().duration(duration)
-				.attr("d", this.areaData);
+				.attr("d", this.area(data));
 
-		const speakers = data.filter(function(d) { return !!d.speaker; });
+		const speakers = data.filter(realSpeakers);
 		 
       	chart
-      		.selectAll("circle")
-      			.data(speakers)
+      		.selectAll(".circle")
+      			.data(speakers, speakerKey)
       			.transition().duration(duration)
-					.attr("cx", (d) => (this.scaleCharacters(d.speakerId)) )
-			 		.attr("cy", (d) => (this.scaleSentiment(d.sentiment)) );
+					.attr("transform", (d) => {
+						const x = this.scaleCharacters(d.speakerId);
+						const y = this.scaleSentiment(d.sentiment);
+						return `translate(${x}, ${y})`;
+					});
 	}
 
 	onScroll() {
@@ -121,7 +121,7 @@ class SentimentDynamics extends React.Component {
 		const { season } = this.state;
 
 		return (
-				<section>
+				<section className="sentiment-dynamics">
 					<div className="viz" ref="viz">
 						<svg>
 							<defs>
@@ -135,17 +135,22 @@ class SentimentDynamics extends React.Component {
 								</linearGradient>
 							</defs>
 							<g transform={`translate(0, ${margin})`}>
-								<path d= { this.areaData } fill="url(#gradient)" stroke="#2c2c2c"/>
+								<path d="" fill="url(#gradient)" />
 								{ 
 									speakers.map((d,i) => {
-										const cx = this.scaleCharacters(d.speakerId);
+										const x = this.scaleCharacters(d.speakerId);
+										const y = this.scaleSentiment(0);
 										const color = this.scaleColor(d.speakerId);
-										const cy = this.scaleSentiment(0);
 										return (
-											<circle key= { d.speakerId }
-												r="3" cx={cx} cy={cy} 
-												fill={ color } stroke="#2c2c2c"
-											/>);
+											<g className="circle" 
+												transform={`translate(${x}, ${y})`}
+												key= { d.speakerId } 
+												speaker={d.speakerId } >
+													<circle r="5" style={{ fill: color}} />
+													<text dy={ d.sentiment > 0 ? -7 : 15} >
+															{ d.speaker }
+													</text>
+											</g>);
 								})}
 							</g>
 						</svg>
@@ -214,5 +219,9 @@ function prepareSourceData() {
 		s.stats.sort((a,b) => (a.speakerId - b.speakerId));
 	});
 }
+
+function speakerKey(d) { return d ? d.speakerId : d3.select(this).attr("speaker"); }
+
+function realSpeakers(d) { return !!d.speaker; }
 
 export default SentimentDynamics;

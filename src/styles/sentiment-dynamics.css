@@ -1,5 +1,5 @@
 
-.btn {
+.sentiment-dynamics .btn {
 	color: white;
 	background: #EC7ED8;
 	border: none;
@@ -9,6 +9,27 @@
 	cursor: pointer;
 }
 
-.btn:hover, .current {
+.sentiment-dynamics .btn:hover, 
+.sentiment-dynamics .current {
   	background: #CD34B5;
+}
+
+.sentiment-dynamics text {
+	text-anchor: middle;
+	font-size:10px; 
+	fill: #555;
+	pointer-events: none;
+}
+
+.sentiment-dynamics circle {
+	fill-opacity: 0.7; 
+	stroke: #2C2C2C;
+}
+
+.sentiment-dynamics circle:hover {
+	fill-opacity: 1; 
+}
+
+.sentiment-dynamics path {
+	stroke: #2C2C2C;
 }
