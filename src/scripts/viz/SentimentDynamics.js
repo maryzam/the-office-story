@@ -28,7 +28,6 @@ class SentimentDynamics extends React.Component {
 
 	scaleSentiment = d3.scaleLinear().domain([minSentiment, maxSentiment]);
 	scaleCharacters = d3.scaleLinear().domain([-1, characters.length]);
-	scaleColor = d3.scaleSequential(d3.interpolateCool).domain([-1, characters.length]);
 
 	area = d3.area()
 				.curve(d3.curveMonotoneX)
@@ -58,8 +57,8 @@ class SentimentDynamics extends React.Component {
 		// append gradient 
 		const baseLineOffset = (baseLine / height) * 100;
 		const stops = [
-				{ offset: "0%", color: "#FFAC1E" },
-				{ offset: `${baseLineOffset}%`, color: "#FFAC1E" },
+				{ offset: "0%", color: "#CD34B5" },
+				{ offset: `${baseLineOffset}%`, color: "#CD34B5" },
 				{ offset: `${baseLineOffset}%`, color: "#2C2C2C" },
 				{ offset: "100%", color: "#2C2C2C" }
 			];
@@ -128,8 +127,8 @@ class SentimentDynamics extends React.Component {
 								<linearGradient id="gradient" 
 									x1="0%" x2="0%" y1="0%" y2="100%"
 									gradientUnits="userSpaceOnUse">
-									<stop offset="0%" stopColor="#FFAC1E"/>
-									<stop offset="50%" stopColor="#FFAC1E"/>
+									<stop offset="0%" stopColor="#CD34B5"/>
+									<stop offset="50%" stopColor="#CD34B5"/>
 									<stop offset="50%" stopColor="#2C2C2C"/>
 									<stop offset="100%" stopColor="#2C2C2C"/>
 								</linearGradient>
@@ -140,16 +139,14 @@ class SentimentDynamics extends React.Component {
 									speakers.map((d,i) => {
 										const x = this.scaleCharacters(d.speakerId);
 										const y = this.scaleSentiment(0);
-										const color = this.scaleColor(d.speakerId);
 										return (
 											<g className="circle" 
 												transform={`translate(${x}, ${y})`}
 												key= { d.speakerId } 
 												speaker={d.speakerId } >
-													<circle r="5" style={{ fill: color}} />
-													<text dy={ d.sentiment > 0 ? -7 : 15} >
-															{ d.speaker }
-													</text>
+													<circle r="5" />
+													<text dy="4"> { d.sentiment < 0 ? "😞" : "😊" } </text>
+													<text dy={ d.sentiment > 0 ? -7: 16}> { d.speaker } </text>
 											</g>);
 								})}
 							</g>

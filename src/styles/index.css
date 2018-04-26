@@ -79,8 +79,6 @@ section {
 .viz {
 	position: sticky;
 	top: 0;
-	background: rgba(0,0,0,0.1);
-	border: 2px solid black;
 	flex: 7 0;
 }
 
@@ -88,11 +86,12 @@ section {
 	display: flex;
 	flex-direction: column;	
 	flex: 3 0;
+	box-shadow: 0 2px 8px rgba(0,0,0,.2);
 }
 
 .note .article {
-	height:100vh;
-	min-height:100vh;
+	height: calc(100% - 100px);
+	min-height: calc(100% - 100px);
 	padding: 10px;
 }
 
