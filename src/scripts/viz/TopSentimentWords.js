@@ -1,6 +1,6 @@
 import React from "react";
 
-class EmotionsComparison extends React.Component {
+class TopSentimentWords extends React.Component {
 
 	render() {
 
@@ -11,10 +11,7 @@ class EmotionsComparison extends React.Component {
 					</div>
 					<div className="note" ref="note">
 						<div className="article">
-							Top Positive/Negative Words by Character
-						</div>
-						<div className="article">
-							Basic Character's Emotions
+							TopSentimentWords
 						</div>
 					</div>
 				</section>
@@ -22,4 +19,4 @@ class EmotionsComparison extends React.Component {
 	}
 }
 
-export default EmotionsComparison;
+export default TopSentimentWords;

@@ -2,13 +2,27 @@ import React from "react";
 
 // import data sets
 
-class CharacterOverview extends React.Component {
+class CharactersOverview extends React.Component {
+
+	componentDidMount() {
+
+	}
+
+	componentDidUpdate() {
+
+	}
+
+	onScroll() {
+
+	}
 
 	render() {
 
 		return (
 			<section>
-				<div className="viz"></div>
+				<div className="viz" ref="container">
+					<svg ref="svg"></svg>
+				</div>
 				<div className="note">
 					<div className="article">Top words overall</div>
 					<div className="article">Top words + distinguishing words</div>
@@ -23,4 +37,4 @@ class CharacterOverview extends React.Component {
 }
 
 
-export default CharacterOverview;
+export default CharactersOverview;
