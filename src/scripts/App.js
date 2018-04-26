@@ -11,10 +11,6 @@ import EmotionsComparison from "./viz/EmotionsComparison";
 
 class App extends React.Component {
 
-	state = {
-
-	}
-
 	/*render() {
 		return (
 			<div className="container">
@@ -35,6 +31,7 @@ class App extends React.Component {
 			<div className="container">
 				<Header />
 				<main>
+					<EmotionsComparison />
 					<SentimentDynamics />
 				</main>
 				<Footer />

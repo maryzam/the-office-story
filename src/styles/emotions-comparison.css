@@ -1,0 +1,13 @@
+
+.emotions-comparison path {
+	stroke: white;
+}
+
+.emotions-comparison text {
+}
+
+.emotions-comparison rect {
+	stroke: none;
+	fill: white;
+	fill-opacity: 0.5;
+}

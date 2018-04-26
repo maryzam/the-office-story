@@ -48,8 +48,9 @@ class SentimentDynamics extends React.Component {
 
 		// update scales
 		const chartHeight = height - 2 * margin;
+		const chartWidth = width - 2 * margin;
 		this.scaleSentiment.range([chartHeight, 0]);
-		this.scaleCharacters.range([0, width]);
+		this.scaleCharacters.range([0, chartWidth]);
 
 		const baseLine = this.scaleSentiment(0);
 		this.area.y0(baseLine);
@@ -110,10 +111,6 @@ class SentimentDynamics extends React.Component {
 					});
 	}
 
-	onScroll() {
-
-	}
-
 	render() {
 
 		const speakers = this.getVizData().filter(function(d) { return !!d.speaker; })
@@ -133,7 +130,7 @@ class SentimentDynamics extends React.Component {
 									<stop offset="100%" stopColor="#2C2C2C"/>
 								</linearGradient>
 							</defs>
-							<g transform={`translate(0, ${margin})`}>
+							<g transform={`translate(${margin}, ${margin})`}>
 								<path d="" fill="url(#gradient)" />
 								{ 
 									speakers.map((d,i) => {

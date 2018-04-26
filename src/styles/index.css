@@ -71,7 +71,7 @@ main {
 
 section {
 	display: flex;
-	align-items: flex-start;
+	align-items: center;
 	min-height: 400px;
 	padding: 10px;
 }
@@ -84,14 +84,37 @@ section {
 
 .note {
 	display: flex;
-	flex-direction: column;	
+	flex-direction: column;
 	flex: 3 0;
+
 	box-shadow: 0 2px 8px rgba(0,0,0,.2);
+	justify-content: center;
 }
 
 .note .article {
-	height: calc(100% - 100px);
-	min-height: calc(100% - 100px);
 	padding: 10px;
 }
 
+.note .article p {
+	padding: 5px;
+}
+
+.note ul {  
+	list-style: none;
+}
+
+.note li {
+	width: 100px;
+	cursor: pointer;
+
+    background-size: 170% 100%;
+    background-position:right bottom;
+
+	margin: 5px 10px;
+	padding: 5px 10px;
+	transition:all 1s ease;
+
+}
+.note li:hover {
+    background-position:left bottom;
+}

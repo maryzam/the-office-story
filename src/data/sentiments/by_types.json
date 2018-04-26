@@ -1,578 +1,542 @@
 [
   {
     "speaker": "Andy",
-    "sentiment": "trust",
-    "n": 5278,
-    "frac": 19.0792
-  },
-  {
-    "speaker": "Andy",
-    "sentiment": "anticipation",
-    "n": 5278,
-    "frac": 16.3698
-  },
-  {
-    "speaker": "Andy",
-    "sentiment": "joy",
-    "n": 5278,
-    "frac": 15.6878
-  },
-  {
-    "speaker": "Andy",
-    "sentiment": "fear",
-    "n": 5278,
-    "frac": 11.3111
-  },
-  {
-    "speaker": "Andy",
-    "sentiment": "sadness",
-    "n": 5278,
-    "frac": 11.0648
-  },
-  {
-    "speaker": "Andy",
-    "sentiment": "anger",
-    "n": 5278,
-    "frac": 10.989
-  },
-  {
-    "speaker": "Andy",
-    "sentiment": "disgust",
-    "n": 5278,
-    "frac": 8.1281
-  },
-  {
-    "speaker": "Andy",
-    "sentiment": "surprise",
-    "n": 5278,
-    "frac": 7.3702
+    "emotions": [
+      {
+        "type": "trust",
+        "freq": 19.0792,
+        "total": 5278
+      },
+      {
+        "type": "anticipation",
+        "freq": 16.3698,
+        "total": 5278
+      },
+      {
+        "type": "joy",
+        "freq": 15.6878,
+        "total": 5278
+      },
+      {
+        "type": "fear",
+        "freq": 11.3111,
+        "total": 5278
+      },
+      {
+        "type": "sadness",
+        "freq": 11.0648,
+        "total": 5278
+      },
+      {
+        "type": "anger",
+        "freq": 10.989,
+        "total": 5278
+      },
+      {
+        "type": "disgust",
+        "freq": 8.1281,
+        "total": 5278
+      },
+      {
+        "type": "surprise",
+        "freq": 7.3702,
+        "total": 5278
+      }
+    ]
   },
   {
     "speaker": "Angela",
-    "sentiment": "anticipation",
-    "n": 1867,
-    "frac": 17.9432
-  },
-  {
-    "speaker": "Angela",
-    "sentiment": "trust",
-    "n": 1867,
-    "frac": 17.5147
-  },
-  {
-    "speaker": "Angela",
-    "sentiment": "joy",
-    "n": 1867,
-    "frac": 15.7472
-  },
-  {
-    "speaker": "Angela",
-    "sentiment": "fear",
-    "n": 1867,
-    "frac": 11.4087
-  },
-  {
-    "speaker": "Angela",
-    "sentiment": "sadness",
-    "n": 1867,
-    "frac": 10.6588
-  },
-  {
-    "speaker": "Angela",
-    "sentiment": "anger",
-    "n": 1867,
-    "frac": 9.5876
-  },
-  {
-    "speaker": "Angela",
-    "sentiment": "disgust",
-    "n": 1867,
-    "frac": 9.1591
-  },
-  {
-    "speaker": "Angela",
-    "sentiment": "surprise",
-    "n": 1867,
-    "frac": 7.9807
+    "emotions": [
+      {
+        "type": "anticipation",
+        "freq": 17.9432,
+        "total": 1867
+      },
+      {
+        "type": "trust",
+        "freq": 17.5147,
+        "total": 1867
+      },
+      {
+        "type": "joy",
+        "freq": 15.7472,
+        "total": 1867
+      },
+      {
+        "type": "fear",
+        "freq": 11.4087,
+        "total": 1867
+      },
+      {
+        "type": "sadness",
+        "freq": 10.6588,
+        "total": 1867
+      },
+      {
+        "type": "anger",
+        "freq": 9.5876,
+        "total": 1867
+      },
+      {
+        "type": "disgust",
+        "freq": 9.1591,
+        "total": 1867
+      },
+      {
+        "type": "surprise",
+        "freq": 7.9807,
+        "total": 1867
+      }
+    ]
   },
   {
     "speaker": "Darryl",
-    "sentiment": "trust",
-    "n": 1279,
-    "frac": 18.2955
-  },
-  {
-    "speaker": "Darryl",
-    "sentiment": "anticipation",
-    "n": 1279,
-    "frac": 18.2174
-  },
-  {
-    "speaker": "Darryl",
-    "sentiment": "joy",
-    "n": 1279,
-    "frac": 16.4973
-  },
-  {
-    "speaker": "Darryl",
-    "sentiment": "sadness",
-    "n": 1279,
-    "frac": 11.4152
-  },
-  {
-    "speaker": "Darryl",
-    "sentiment": "fear",
-    "n": 1279,
-    "frac": 11.337
-  },
-  {
-    "speaker": "Darryl",
-    "sentiment": "anger",
-    "n": 1279,
-    "frac": 9.7733
-  },
-  {
-    "speaker": "Darryl",
-    "sentiment": "surprise",
-    "n": 1279,
-    "frac": 7.4277
-  },
-  {
-    "speaker": "Darryl",
-    "sentiment": "disgust",
-    "n": 1279,
-    "frac": 7.0367
+    "emotions": [
+      {
+        "type": "trust",
+        "freq": 18.2955,
+        "total": 1279
+      },
+      {
+        "type": "anticipation",
+        "freq": 18.2174,
+        "total": 1279
+      },
+      {
+        "type": "joy",
+        "freq": 16.4973,
+        "total": 1279
+      },
+      {
+        "type": "sadness",
+        "freq": 11.4152,
+        "total": 1279
+      },
+      {
+        "type": "fear",
+        "freq": 11.337,
+        "total": 1279
+      },
+      {
+        "type": "anger",
+        "freq": 9.7733,
+        "total": 1279
+      },
+      {
+        "type": "surprise",
+        "freq": 7.4277,
+        "total": 1279
+      },
+      {
+        "type": "disgust",
+        "freq": 7.0367,
+        "total": 1279
+      }
+    ]
   },
   {
     "speaker": "Dwight",
-    "sentiment": "trust",
-    "n": 9650,
-    "frac": 18.9741
-  },
-  {
-    "speaker": "Dwight",
-    "sentiment": "anticipation",
-    "n": 9650,
-    "frac": 16.601
-  },
-  {
-    "speaker": "Dwight",
-    "sentiment": "fear",
-    "n": 9650,
-    "frac": 14.2073
-  },
-  {
-    "speaker": "Dwight",
-    "sentiment": "joy",
-    "n": 9650,
-    "frac": 13.0155
-  },
-  {
-    "speaker": "Dwight",
-    "sentiment": "anger",
-    "n": 9650,
-    "frac": 10.9637
-  },
-  {
-    "speaker": "Dwight",
-    "sentiment": "sadness",
-    "n": 9650,
-    "frac": 10.6425
-  },
-  {
-    "speaker": "Dwight",
-    "sentiment": "disgust",
-    "n": 9650,
-    "frac": 8.3731
-  },
-  {
-    "speaker": "Dwight",
-    "sentiment": "surprise",
-    "n": 9650,
-    "frac": 7.2228
+    "emotions": [
+      {
+        "type": "trust",
+        "freq": 18.9741,
+        "total": 9650
+      },
+      {
+        "type": "anticipation",
+        "freq": 16.601,
+        "total": 9650
+      },
+      {
+        "type": "fear",
+        "freq": 14.2073,
+        "total": 9650
+      },
+      {
+        "type": "joy",
+        "freq": 13.0155,
+        "total": 9650
+      },
+      {
+        "type": "anger",
+        "freq": 10.9637,
+        "total": 9650
+      },
+      {
+        "type": "sadness",
+        "freq": 10.6425,
+        "total": 9650
+      },
+      {
+        "type": "disgust",
+        "freq": 8.3731,
+        "total": 9650
+      },
+      {
+        "type": "surprise",
+        "freq": 7.2228,
+        "total": 9650
+      }
+    ]
   },
   {
     "speaker": "Erin",
-    "sentiment": "anticipation",
-    "n": 1334,
-    "frac": 20.3148
-  },
-  {
-    "speaker": "Erin",
-    "sentiment": "trust",
-    "n": 1334,
-    "frac": 18.8156
-  },
-  {
-    "speaker": "Erin",
-    "sentiment": "joy",
-    "n": 1334,
-    "frac": 17.5412
-  },
-  {
-    "speaker": "Erin",
-    "sentiment": "fear",
-    "n": 1334,
-    "frac": 11.5442
-  },
-  {
-    "speaker": "Erin",
-    "sentiment": "sadness",
-    "n": 1334,
-    "frac": 10.4948
-  },
-  {
-    "speaker": "Erin",
-    "sentiment": "anger",
-    "n": 1334,
-    "frac": 8.2459
-  },
-  {
-    "speaker": "Erin",
-    "sentiment": "surprise",
-    "n": 1334,
-    "frac": 6.8966
-  },
-  {
-    "speaker": "Erin",
-    "sentiment": "disgust",
-    "n": 1334,
-    "frac": 6.1469
+    "emotions": [
+      {
+        "type": "anticipation",
+        "freq": 20.3148,
+        "total": 1334
+      },
+      {
+        "type": "trust",
+        "freq": 18.8156,
+        "total": 1334
+      },
+      {
+        "type": "joy",
+        "freq": 17.5412,
+        "total": 1334
+      },
+      {
+        "type": "fear",
+        "freq": 11.5442,
+        "total": 1334
+      },
+      {
+        "type": "sadness",
+        "freq": 10.4948,
+        "total": 1334
+      },
+      {
+        "type": "anger",
+        "freq": 8.2459,
+        "total": 1334
+      },
+      {
+        "type": "surprise",
+        "freq": 6.8966,
+        "total": 1334
+      },
+      {
+        "type": "disgust",
+        "freq": 6.1469,
+        "total": 1334
+      }
+    ]
   },
   {
     "speaker": "Jim",
-    "sentiment": "anticipation",
-    "n": 6107,
-    "frac": 20.1572
-  },
-  {
-    "speaker": "Jim",
-    "sentiment": "trust",
-    "n": 6107,
-    "frac": 18.618
-  },
-  {
-    "speaker": "Jim",
-    "sentiment": "joy",
-    "n": 6107,
-    "frac": 16.2109
-  },
-  {
-    "speaker": "Jim",
-    "sentiment": "fear",
-    "n": 6107,
-    "frac": 11.8389
-  },
-  {
-    "speaker": "Jim",
-    "sentiment": "sadness",
-    "n": 6107,
-    "frac": 9.7593
-  },
-  {
-    "speaker": "Jim",
-    "sentiment": "anger",
-    "n": 6107,
-    "frac": 9.1207
-  },
-  {
-    "speaker": "Jim",
-    "sentiment": "surprise",
-    "n": 6107,
-    "frac": 7.8926
-  },
-  {
-    "speaker": "Jim",
-    "sentiment": "disgust",
-    "n": 6107,
-    "frac": 6.4025
+    "emotions": [
+      {
+        "type": "anticipation",
+        "freq": 20.1572,
+        "total": 6107
+      },
+      {
+        "type": "trust",
+        "freq": 18.618,
+        "total": 6107
+      },
+      {
+        "type": "joy",
+        "freq": 16.2109,
+        "total": 6107
+      },
+      {
+        "type": "fear",
+        "freq": 11.8389,
+        "total": 6107
+      },
+      {
+        "type": "sadness",
+        "freq": 9.7593,
+        "total": 6107
+      },
+      {
+        "type": "anger",
+        "freq": 9.1207,
+        "total": 6107
+      },
+      {
+        "type": "surprise",
+        "freq": 7.8926,
+        "total": 6107
+      },
+      {
+        "type": "disgust",
+        "freq": 6.4025,
+        "total": 6107
+      }
+    ]
   },
   {
     "speaker": "Kevin",
-    "sentiment": "anticipation",
-    "n": 1506,
-    "frac": 16.9987
-  },
-  {
-    "speaker": "Kevin",
-    "sentiment": "trust",
-    "n": 1506,
-    "frac": 16.7331
-  },
-  {
-    "speaker": "Kevin",
-    "sentiment": "joy",
-    "n": 1506,
-    "frac": 15.4714
-  },
-  {
-    "speaker": "Kevin",
-    "sentiment": "fear",
-    "n": 1506,
-    "frac": 12.085
-  },
-  {
-    "speaker": "Kevin",
-    "sentiment": "anger",
-    "n": 1506,
-    "frac": 11.6202
-  },
-  {
-    "speaker": "Kevin",
-    "sentiment": "sadness",
-    "n": 1506,
-    "frac": 10.2922
-  },
-  {
-    "speaker": "Kevin",
-    "sentiment": "disgust",
-    "n": 1506,
-    "frac": 8.8313
-  },
-  {
-    "speaker": "Kevin",
-    "sentiment": "surprise",
-    "n": 1506,
-    "frac": 7.9681
+    "emotions": [
+      {
+        "type": "anticipation",
+        "freq": 16.9987,
+        "total": 1506
+      },
+      {
+        "type": "trust",
+        "freq": 16.7331,
+        "total": 1506
+      },
+      {
+        "type": "joy",
+        "freq": 15.4714,
+        "total": 1506
+      },
+      {
+        "type": "fear",
+        "freq": 12.085,
+        "total": 1506
+      },
+      {
+        "type": "anger",
+        "freq": 11.6202,
+        "total": 1506
+      },
+      {
+        "type": "sadness",
+        "freq": 10.2922,
+        "total": 1506
+      },
+      {
+        "type": "disgust",
+        "freq": 8.8313,
+        "total": 1506
+      },
+      {
+        "type": "surprise",
+        "freq": 7.9681,
+        "total": 1506
+      }
+    ]
   },
   {
     "speaker": "Michael",
-    "sentiment": "trust",
-    "n": 17398,
-    "frac": 17.5652
-  },
-  {
-    "speaker": "Michael",
-    "sentiment": "anticipation",
-    "n": 17398,
-    "frac": 17.5365
-  },
-  {
-    "speaker": "Michael",
-    "sentiment": "joy",
-    "n": 17398,
-    "frac": 16.8008
-  },
-  {
-    "speaker": "Michael",
-    "sentiment": "fear",
-    "n": 17398,
-    "frac": 11.8404
-  },
-  {
-    "speaker": "Michael",
-    "sentiment": "sadness",
-    "n": 17398,
-    "frac": 10.438
-  },
-  {
-    "speaker": "Michael",
-    "sentiment": "anger",
-    "n": 17398,
-    "frac": 10.1333
-  },
-  {
-    "speaker": "Michael",
-    "sentiment": "surprise",
-    "n": 17398,
-    "frac": 8.1274
-  },
-  {
-    "speaker": "Michael",
-    "sentiment": "disgust",
-    "n": 17398,
-    "frac": 7.5583
+    "emotions": [
+      {
+        "type": "trust",
+        "freq": 17.5652,
+        "total": 17398
+      },
+      {
+        "type": "anticipation",
+        "freq": 17.5365,
+        "total": 17398
+      },
+      {
+        "type": "joy",
+        "freq": 16.8008,
+        "total": 17398
+      },
+      {
+        "type": "fear",
+        "freq": 11.8404,
+        "total": 17398
+      },
+      {
+        "type": "sadness",
+        "freq": 10.438,
+        "total": 17398
+      },
+      {
+        "type": "anger",
+        "freq": 10.1333,
+        "total": 17398
+      },
+      {
+        "type": "surprise",
+        "freq": 8.1274,
+        "total": 17398
+      },
+      {
+        "type": "disgust",
+        "freq": 7.5583,
+        "total": 17398
+      }
+    ]
   },
   {
     "speaker": "Oscar",
-    "sentiment": "trust",
-    "n": 1393,
-    "frac": 20.2441
-  },
-  {
-    "speaker": "Oscar",
-    "sentiment": "anticipation",
-    "n": 1393,
-    "frac": 15.9368
-  },
-  {
-    "speaker": "Oscar",
-    "sentiment": "joy",
-    "n": 1393,
-    "frac": 15.219
-  },
-  {
-    "speaker": "Oscar",
-    "sentiment": "fear",
-    "n": 1393,
-    "frac": 11.1989
-  },
-  {
-    "speaker": "Oscar",
-    "sentiment": "anger",
-    "n": 1393,
-    "frac": 10.6246
-  },
-  {
-    "speaker": "Oscar",
-    "sentiment": "sadness",
-    "n": 1393,
-    "frac": 10.6246
-  },
-  {
-    "speaker": "Oscar",
-    "sentiment": "surprise",
-    "n": 1393,
-    "frac": 8.112
-  },
-  {
-    "speaker": "Oscar",
-    "sentiment": "disgust",
-    "n": 1393,
-    "frac": 8.0402
+    "emotions": [
+      {
+        "type": "trust",
+        "freq": 20.2441,
+        "total": 1393
+      },
+      {
+        "type": "anticipation",
+        "freq": 15.9368,
+        "total": 1393
+      },
+      {
+        "type": "joy",
+        "freq": 15.219,
+        "total": 1393
+      },
+      {
+        "type": "fear",
+        "freq": 11.1989,
+        "total": 1393
+      },
+      {
+        "type": "anger",
+        "freq": 10.6246,
+        "total": 1393
+      },
+      {
+        "type": "sadness",
+        "freq": 10.6246,
+        "total": 1393
+      },
+      {
+        "type": "surprise",
+        "freq": 8.112,
+        "total": 1393
+      },
+      {
+        "type": "disgust",
+        "freq": 8.0402,
+        "total": 1393
+      }
+    ]
   },
   {
     "speaker": "Pam",
-    "sentiment": "anticipation",
-    "n": 4634,
-    "frac": 20.738
-  },
-  {
-    "speaker": "Pam",
-    "sentiment": "trust",
-    "n": 4634,
-    "frac": 18.6232
-  },
-  {
-    "speaker": "Pam",
-    "sentiment": "joy",
-    "n": 4634,
-    "frac": 17.2637
-  },
-  {
-    "speaker": "Pam",
-    "sentiment": "fear",
-    "n": 4634,
-    "frac": 10.984
-  },
-  {
-    "speaker": "Pam",
-    "sentiment": "sadness",
-    "n": 4634,
-    "frac": 9.4519
-  },
-  {
-    "speaker": "Pam",
-    "sentiment": "anger",
-    "n": 4634,
-    "frac": 8.4161
-  },
-  {
-    "speaker": "Pam",
-    "sentiment": "surprise",
-    "n": 4634,
-    "frac": 8.1139
-  },
-  {
-    "speaker": "Pam",
-    "sentiment": "disgust",
-    "n": 4634,
-    "frac": 6.4091
+    "emotions": [
+      {
+        "type": "anticipation",
+        "freq": 20.738,
+        "total": 4634
+      },
+      {
+        "type": "trust",
+        "freq": 18.6232,
+        "total": 4634
+      },
+      {
+        "type": "joy",
+        "freq": 17.2637,
+        "total": 4634
+      },
+      {
+        "type": "fear",
+        "freq": 10.984,
+        "total": 4634
+      },
+      {
+        "type": "sadness",
+        "freq": 9.4519,
+        "total": 4634
+      },
+      {
+        "type": "anger",
+        "freq": 8.4161,
+        "total": 4634
+      },
+      {
+        "type": "surprise",
+        "freq": 8.1139,
+        "total": 4634
+      },
+      {
+        "type": "disgust",
+        "freq": 6.4091,
+        "total": 4634
+      }
+    ]
   },
   {
     "speaker": "Phyllis",
-    "sentiment": "trust",
-    "n": 885,
-    "frac": 19.435
-  },
-  {
-    "speaker": "Phyllis",
-    "sentiment": "anticipation",
-    "n": 885,
-    "frac": 18.5311
-  },
-  {
-    "speaker": "Phyllis",
-    "sentiment": "joy",
-    "n": 885,
-    "frac": 18.1921
-  },
-  {
-    "speaker": "Phyllis",
-    "sentiment": "anger",
-    "n": 885,
-    "frac": 9.6045
-  },
-  {
-    "speaker": "Phyllis",
-    "sentiment": "sadness",
-    "n": 885,
-    "frac": 9.3785
-  },
-  {
-    "speaker": "Phyllis",
-    "sentiment": "fear",
-    "n": 885,
-    "frac": 9.1525
-  },
-  {
-    "speaker": "Phyllis",
-    "sentiment": "surprise",
-    "n": 885,
-    "frac": 8.2486
-  },
-  {
-    "speaker": "Phyllis",
-    "sentiment": "disgust",
-    "n": 885,
-    "frac": 7.4576
+    "emotions": [
+      {
+        "type": "trust",
+        "freq": 19.435,
+        "total": 885
+      },
+      {
+        "type": "anticipation",
+        "freq": 18.5311,
+        "total": 885
+      },
+      {
+        "type": "joy",
+        "freq": 18.1921,
+        "total": 885
+      },
+      {
+        "type": "anger",
+        "freq": 9.6045,
+        "total": 885
+      },
+      {
+        "type": "sadness",
+        "freq": 9.3785,
+        "total": 885
+      },
+      {
+        "type": "fear",
+        "freq": 9.1525,
+        "total": 885
+      },
+      {
+        "type": "surprise",
+        "freq": 8.2486,
+        "total": 885
+      },
+      {
+        "type": "disgust",
+        "freq": 7.4576,
+        "total": 885
+      }
+    ]
   },
   {
     "speaker": "Ryan",
-    "sentiment": "anticipation",
-    "n": 1191,
-    "frac": 19.5634
-  },
-  {
-    "speaker": "Ryan",
-    "sentiment": "trust",
-    "n": 1191,
-    "frac": 18.9757
-  },
-  {
-    "speaker": "Ryan",
-    "sentiment": "joy",
-    "n": 1191,
-    "frac": 15.7851
-  },
-  {
-    "speaker": "Ryan",
-    "sentiment": "fear",
-    "n": 1191,
-    "frac": 11.1671
-  },
-  {
-    "speaker": "Ryan",
-    "sentiment": "sadness",
-    "n": 1191,
-    "frac": 10.0756
-  },
-  {
-    "speaker": "Ryan",
-    "sentiment": "anger",
-    "n": 1191,
-    "frac": 9.6558
-  },
-  {
-    "speaker": "Ryan",
-    "sentiment": "surprise",
-    "n": 1191,
-    "frac": 8.2284
-  },
-  {
-    "speaker": "Ryan",
-    "sentiment": "disgust",
-    "n": 1191,
-    "frac": 6.5491
+    "emotions": [
+      {
+        "type": "anticipation",
+        "freq": 19.5634,
+        "total": 1191
+      },
+      {
+        "type": "trust",
+        "freq": 18.9757,
+        "total": 1191
+      },
+      {
+        "type": "joy",
+        "freq": 15.7851,
+        "total": 1191
+      },
+      {
+        "type": "fear",
+        "freq": 11.1671,
+        "total": 1191
+      },
+      {
+        "type": "sadness",
+        "freq": 10.0756,
+        "total": 1191
+      },
+      {
+        "type": "anger",
+        "freq": 9.6558,
+        "total": 1191
+      },
+      {
+        "type": "surprise",
+        "freq": 8.2284,
+        "total": 1191
+      },
+      {
+        "type": "disgust",
+        "freq": 6.5491,
+        "total": 1191
+      }
+    ]
   }
 ]
