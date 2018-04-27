@@ -159,7 +159,7 @@ class SentimentDynamics extends React.Component {
 							   And our emotions and reactions become different as well.
 							</p>
 							<p>
-								Let's explore how changes the tone of character's speach from season to season.
+								Let's explore how changes the tone of character's speech from season to season.
 							</p>
 							<p>
 								{ 
