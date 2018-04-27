@@ -147,10 +147,10 @@ dwfPerHero %>%
 
 bySeasons <- tidyData %>%
   filter(speaker %in% mainCharacters) %>%
-  inner_join(get_sentiments("afinn")) %>%
-  group_by(season, speaker) %>%
-  summarise(sentiment = sum(score)) %>%
-  ungroup()
+  inner_join(get_sentiments("bing")) %>%
+  count(speaker, season, sentiment) %>%
+  spread(sentiment, n, fill = 0) %>%
+  mutate(sentiment = positive - negative) 
 
 ggplot(bySeasons, aes(season, sentiment, fill = speaker)) +
   geom_bar(stat = "identity") +
@@ -214,6 +214,26 @@ for (sp in mainCharacters$speaker) {
   
   #print(plot)
 }
+
+totals <- tidyData %>%
+  filter(speaker %in% mainCharacters) %>%
+  group_by(speaker) %>%
+  summarize(total=n()) %>%
+  ungroup()
+
+bySeasons <- tidyData %>%
+  filter(speaker %in% mainCharacters) %>%
+  inner_join(get_sentiments("bing")) %>%
+  count(speaker, sentiment) %>%
+  spread(sentiment, n, fill = 0) %>%
+  mutate(sentiment = positive - negative) %>%
+  inner_join(totals, by="speaker") %>%
+  mutate(positiveFreq = (positive / total)*100) %>%
+  mutate(negativeFreq = (negative / total)*100) 
+
+bySeasons %>%
+  toJSON(pretty = TRUE) %>%
+  write_lines("./jsons/sentimentalsByCharacter.json")
 
 
 

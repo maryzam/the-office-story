@@ -9,7 +9,6 @@ import source from "../../data/sentiments/by_types.json";
 
 const visOffset = 100;
 
-
 const emotions = source[0].emotions.map((e) => (e.type)).sort();
 
 const pie = d3.pie().value((d) => 1);
@@ -78,7 +77,8 @@ class EmotionsComparison extends React.Component {
 				<section className="emotions-comparison">
 					<div className="note" ref="note">
 						<div className="article">
-							What is most common emotion?
+							<p>Our feelings are more complicated than just <span>positive</span> and <span>negative</span>. </p>
+							<p>Psychologists usually talk about eight basic emotions</p>
 							<ul>
 								{ 
 									emotions.map((e) => 
@@ -87,6 +87,7 @@ class EmotionsComparison extends React.Component {
 										}}>{ e }</li>))
 								}
 							</ul>
+							<p>Which of them are typical for each character?</p>
 						</div>
 					</div>
 					<div className="viz" ref="viz">

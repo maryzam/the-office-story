@@ -154,9 +154,9 @@ class SentimentDynamics extends React.Component {
 							<p>But emotions aren't static. </p>
 							<p>
 							   People fight and make peace. 
-							   Someone find love, someone lose his job.
+							   Someone finds love, someone loses his job.
 							   Life is changing rapidly.  
-							   And person's emotions and reactions become different as well.
+							   And our emotions and reactions become different as well.
 							</p>
 							<p>
 								Let's explore how changes the tone of character's speach from season to season.

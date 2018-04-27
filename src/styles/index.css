@@ -74,6 +74,7 @@ section {
 	align-items: center;
 	min-height: 400px;
 	padding: 10px;
+	margin-bottom: 10px;
 }
 
 .viz {

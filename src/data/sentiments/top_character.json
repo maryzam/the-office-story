@@ -1,770 +1,702 @@
 [
   {
     "speaker": "Andy",
-    "word": "whoa",
-    "sentiment": "positive",
-    "n": 65
-  },
-  {
-    "speaker": "Andy",
-    "word": "love",
-    "sentiment": "positive",
-    "n": 58
-  },
-  {
-    "speaker": "Andy",
-    "word": "pretty",
-    "sentiment": "positive",
-    "n": 48
-  },
-  {
-    "speaker": "Andy",
-    "word": "cool",
-    "sentiment": "positive",
-    "n": 42
-  },
-  {
-    "speaker": "Andy",
-    "word": "wow",
-    "sentiment": "positive",
-    "n": 37
-  },
-  {
-    "speaker": "Andy",
-    "word": "fine",
-    "sentiment": "positive",
-    "n": 36
-  },
-  {
-    "speaker": "Andy",
-    "word": "nice",
-    "sentiment": "positive",
-    "n": 34
-  },
-  {
-    "speaker": "Andy",
-    "word": "hot",
-    "sentiment": "positive",
-    "n": 30
-  },
-  {
-    "speaker": "Andy",
-    "word": "awesome",
-    "sentiment": "positive",
-    "n": 26
-  },
-  {
-    "speaker": "Andy",
-    "word": "weird",
-    "sentiment": "negative",
-    "n": -32
+    "words": [
+      {
+        "word": "whoa",
+        "sentiment": "positive",
+        "weight": 65
+      },
+      {
+        "word": "love",
+        "sentiment": "positive",
+        "weight": 58
+      },
+      {
+        "word": "pretty",
+        "sentiment": "positive",
+        "weight": 48
+      },
+      {
+        "word": "cool",
+        "sentiment": "positive",
+        "weight": 42
+      },
+      {
+        "word": "wow",
+        "sentiment": "positive",
+        "weight": 37
+      },
+      {
+        "word": "fine",
+        "sentiment": "positive",
+        "weight": 36
+      },
+      {
+        "word": "nice",
+        "sentiment": "positive",
+        "weight": 34
+      },
+      {
+        "word": "hot",
+        "sentiment": "positive",
+        "weight": 30
+      },
+      {
+        "word": "awesome",
+        "sentiment": "positive",
+        "weight": 26
+      },
+      {
+        "word": "weird",
+        "sentiment": "negative",
+        "weight": -32
+      }
+    ]
   },
   {
     "speaker": "Angela",
-    "word": "fine",
-    "sentiment": "positive",
-    "n": 21
-  },
-  {
-    "speaker": "Angela",
-    "word": "fun",
-    "sentiment": "positive",
-    "n": 10
-  },
-  {
-    "speaker": "Angela",
-    "word": "love",
-    "sentiment": "positive",
-    "n": 9
-  },
-  {
-    "speaker": "Angela",
-    "word": "nice",
-    "sentiment": "positive",
-    "n": 9
-  },
-  {
-    "speaker": "Angela",
-    "word": "excuse",
-    "sentiment": "negative",
-    "n": -8
-  },
-  {
-    "speaker": "Angela",
-    "word": "wrong",
-    "sentiment": "negative",
-    "n": -8
-  },
-  {
-    "speaker": "Angela",
-    "word": "hate",
-    "sentiment": "negative",
-    "n": -9
-  },
-  {
-    "speaker": "Angela",
-    "word": "stupid",
-    "sentiment": "negative",
-    "n": -11
-  },
-  {
-    "speaker": "Angela",
-    "word": "ugh",
-    "sentiment": "negative",
-    "n": -15
-  },
-  {
-    "speaker": "Angela",
-    "word": "bad",
-    "sentiment": "negative",
-    "n": -17
+    "words": [
+      {
+        "word": "fine",
+        "sentiment": "positive",
+        "weight": 21
+      },
+      {
+        "word": "fun",
+        "sentiment": "positive",
+        "weight": 10
+      },
+      {
+        "word": "love",
+        "sentiment": "positive",
+        "weight": 9
+      },
+      {
+        "word": "nice",
+        "sentiment": "positive",
+        "weight": 9
+      },
+      {
+        "word": "excuse",
+        "sentiment": "negative",
+        "weight": -8
+      },
+      {
+        "word": "wrong",
+        "sentiment": "negative",
+        "weight": -8
+      },
+      {
+        "word": "hate",
+        "sentiment": "negative",
+        "weight": -9
+      },
+      {
+        "word": "stupid",
+        "sentiment": "negative",
+        "weight": -11
+      },
+      {
+        "word": "ugh",
+        "sentiment": "negative",
+        "weight": -15
+      },
+      {
+        "word": "bad",
+        "sentiment": "negative",
+        "weight": -17
+      }
+    ]
   },
   {
     "speaker": "Darryl",
-    "word": "cool",
-    "sentiment": "positive",
-    "n": 23
-  },
-  {
-    "speaker": "Darryl",
-    "word": "whoa",
-    "sentiment": "positive",
-    "n": 16
-  },
-  {
-    "speaker": "Darryl",
-    "word": "fun",
-    "sentiment": "positive",
-    "n": 12
-  },
-  {
-    "speaker": "Darryl",
-    "word": "love",
-    "sentiment": "positive",
-    "n": 12
-  },
-  {
-    "speaker": "Darryl",
-    "word": "nice",
-    "sentiment": "positive",
-    "n": 12
-  },
-  {
-    "speaker": "Darryl",
-    "word": "pretty",
-    "sentiment": "positive",
-    "n": 8
-  },
-  {
-    "speaker": "Darryl",
-    "word": "crazy",
-    "sentiment": "negative",
-    "n": -8
-  },
-  {
-    "speaker": "Darryl",
-    "word": "damn",
-    "sentiment": "negative",
-    "n": -8
-  },
-  {
-    "speaker": "Darryl",
-    "word": "wrong",
-    "sentiment": "negative",
-    "n": -8
-  },
-  {
-    "speaker": "Darryl",
-    "word": "bad",
-    "sentiment": "negative",
-    "n": -11
+    "words": [
+      {
+        "word": "cool",
+        "sentiment": "positive",
+        "weight": 23
+      },
+      {
+        "word": "whoa",
+        "sentiment": "positive",
+        "weight": 16
+      },
+      {
+        "word": "fun",
+        "sentiment": "positive",
+        "weight": 12
+      },
+      {
+        "word": "love",
+        "sentiment": "positive",
+        "weight": 12
+      },
+      {
+        "word": "nice",
+        "sentiment": "positive",
+        "weight": 12
+      },
+      {
+        "word": "pretty",
+        "sentiment": "positive",
+        "weight": 8
+      },
+      {
+        "word": "crazy",
+        "sentiment": "negative",
+        "weight": -8
+      },
+      {
+        "word": "damn",
+        "sentiment": "negative",
+        "weight": -8
+      },
+      {
+        "word": "wrong",
+        "sentiment": "negative",
+        "weight": -8
+      },
+      {
+        "word": "bad",
+        "sentiment": "negative",
+        "weight": -11
+      }
+    ]
   },
   {
     "speaker": "Dwight",
-    "word": "fine",
-    "sentiment": "positive",
-    "n": 74
-  },
-  {
-    "speaker": "Dwight",
-    "word": "love",
-    "sentiment": "positive",
-    "n": 59
-  },
-  {
-    "speaker": "Dwight",
-    "word": "nice",
-    "sentiment": "positive",
-    "n": 47
-  },
-  {
-    "speaker": "Dwight",
-    "word": "ready",
-    "sentiment": "positive",
-    "n": 37
-  },
-  {
-    "speaker": "Dwight",
-    "word": "wow",
-    "sentiment": "positive",
-    "n": 36
-  },
-  {
-    "speaker": "Dwight",
-    "word": "stupid",
-    "sentiment": "negative",
-    "n": -34
-  },
-  {
-    "speaker": "Dwight",
-    "word": "damn",
-    "sentiment": "negative",
-    "n": -37
-  },
-  {
-    "speaker": "Dwight",
-    "word": "excuse",
-    "sentiment": "negative",
-    "n": -37
-  },
-  {
-    "speaker": "Dwight",
-    "word": "bad",
-    "sentiment": "negative",
-    "n": -39
-  },
-  {
-    "speaker": "Dwight",
-    "word": "dead",
-    "sentiment": "negative",
-    "n": -42
+    "words": [
+      {
+        "word": "fine",
+        "sentiment": "positive",
+        "weight": 74
+      },
+      {
+        "word": "love",
+        "sentiment": "positive",
+        "weight": 59
+      },
+      {
+        "word": "nice",
+        "sentiment": "positive",
+        "weight": 47
+      },
+      {
+        "word": "ready",
+        "sentiment": "positive",
+        "weight": 37
+      },
+      {
+        "word": "wow",
+        "sentiment": "positive",
+        "weight": 36
+      },
+      {
+        "word": "stupid",
+        "sentiment": "negative",
+        "weight": -34
+      },
+      {
+        "word": "damn",
+        "sentiment": "negative",
+        "weight": -37
+      },
+      {
+        "word": "excuse",
+        "sentiment": "negative",
+        "weight": -37
+      },
+      {
+        "word": "bad",
+        "sentiment": "negative",
+        "weight": -39
+      },
+      {
+        "word": "dead",
+        "sentiment": "negative",
+        "weight": -42
+      }
+    ]
   },
   {
     "speaker": "Erin",
-    "word": "love",
-    "sentiment": "positive",
-    "n": 20
-  },
-  {
-    "speaker": "Erin",
-    "word": "fun",
-    "sentiment": "positive",
-    "n": 14
-  },
-  {
-    "speaker": "Erin",
-    "word": "nice",
-    "sentiment": "positive",
-    "n": 14
-  },
-  {
-    "speaker": "Erin",
-    "word": "happy",
-    "sentiment": "positive",
-    "n": 12
-  },
-  {
-    "speaker": "Erin",
-    "word": "wow",
-    "sentiment": "positive",
-    "n": 12
-  },
-  {
-    "speaker": "Erin",
-    "word": "cool",
-    "sentiment": "positive",
-    "n": 10
-  },
-  {
-    "speaker": "Erin",
-    "word": "hot",
-    "sentiment": "positive",
-    "n": 9
-  },
-  {
-    "speaker": "Erin",
-    "word": "fine",
-    "sentiment": "positive",
-    "n": 8
-  },
-  {
-    "speaker": "Erin",
-    "word": "hate",
-    "sentiment": "negative",
-    "n": -8
-  },
-  {
-    "speaker": "Erin",
-    "word": "dead",
-    "sentiment": "negative",
-    "n": -9
+    "words": [
+      {
+        "word": "love",
+        "sentiment": "positive",
+        "weight": 20
+      },
+      {
+        "word": "fun",
+        "sentiment": "positive",
+        "weight": 14
+      },
+      {
+        "word": "nice",
+        "sentiment": "positive",
+        "weight": 14
+      },
+      {
+        "word": "happy",
+        "sentiment": "positive",
+        "weight": 12
+      },
+      {
+        "word": "wow",
+        "sentiment": "positive",
+        "weight": 12
+      },
+      {
+        "word": "cool",
+        "sentiment": "positive",
+        "weight": 10
+      },
+      {
+        "word": "hot",
+        "sentiment": "positive",
+        "weight": 9
+      },
+      {
+        "word": "fine",
+        "sentiment": "positive",
+        "weight": 8
+      },
+      {
+        "word": "hate",
+        "sentiment": "negative",
+        "weight": -8
+      },
+      {
+        "word": "dead",
+        "sentiment": "negative",
+        "weight": -9
+      }
+    ]
   },
   {
     "speaker": "Jim",
-    "word": "wow",
-    "sentiment": "positive",
-    "n": 119
-  },
-  {
-    "speaker": "Jim",
-    "word": "love",
-    "sentiment": "positive",
-    "n": 78
-  },
-  {
-    "speaker": "Jim",
-    "word": "pretty",
-    "sentiment": "positive",
-    "n": 77
-  },
-  {
-    "speaker": "Jim",
-    "word": "nice",
-    "sentiment": "positive",
-    "n": 75
-  },
-  {
-    "speaker": "Jim",
-    "word": "whoa",
-    "sentiment": "positive",
-    "n": 47
-  },
-  {
-    "speaker": "Jim",
-    "word": "fun",
-    "sentiment": "positive",
-    "n": 43
-  },
-  {
-    "speaker": "Jim",
-    "word": "cool",
-    "sentiment": "positive",
-    "n": 35
-  },
-  {
-    "speaker": "Jim",
-    "word": "bad",
-    "sentiment": "negative",
-    "n": -34
-  },
-  {
-    "speaker": "Jim",
-    "word": "crazy",
-    "sentiment": "negative",
-    "n": -37
-  },
-  {
-    "speaker": "Jim",
-    "word": "weird",
-    "sentiment": "negative",
-    "n": -40
+    "words": [
+      {
+        "word": "wow",
+        "sentiment": "positive",
+        "weight": 119
+      },
+      {
+        "word": "love",
+        "sentiment": "positive",
+        "weight": 78
+      },
+      {
+        "word": "pretty",
+        "sentiment": "positive",
+        "weight": 77
+      },
+      {
+        "word": "nice",
+        "sentiment": "positive",
+        "weight": 75
+      },
+      {
+        "word": "whoa",
+        "sentiment": "positive",
+        "weight": 47
+      },
+      {
+        "word": "fun",
+        "sentiment": "positive",
+        "weight": 43
+      },
+      {
+        "word": "cool",
+        "sentiment": "positive",
+        "weight": 35
+      },
+      {
+        "word": "bad",
+        "sentiment": "negative",
+        "weight": -34
+      },
+      {
+        "word": "crazy",
+        "sentiment": "negative",
+        "weight": -37
+      },
+      {
+        "word": "weird",
+        "sentiment": "negative",
+        "weight": -40
+      }
+    ]
   },
   {
     "speaker": "Kevin",
-    "word": "nice",
-    "sentiment": "positive",
-    "n": 28
-  },
-  {
-    "speaker": "Kevin",
-    "word": "cool",
-    "sentiment": "positive",
-    "n": 21
-  },
-  {
-    "speaker": "Kevin",
-    "word": "awesome",
-    "sentiment": "positive",
-    "n": 20
-  },
-  {
-    "speaker": "Kevin",
-    "word": "hot",
-    "sentiment": "positive",
-    "n": 16
-  },
-  {
-    "speaker": "Kevin",
-    "word": "love",
-    "sentiment": "positive",
-    "n": 16
-  },
-  {
-    "speaker": "Kevin",
-    "word": "whoa",
-    "sentiment": "positive",
-    "n": 16
-  },
-  {
-    "speaker": "Kevin",
-    "word": "fine",
-    "sentiment": "positive",
-    "n": 9
-  },
-  {
-    "speaker": "Kevin",
-    "word": "pretty",
-    "sentiment": "positive",
-    "n": 9
-  },
-  {
-    "speaker": "Kevin",
-    "word": "warning",
-    "sentiment": "negative",
-    "n": -9
-  },
-  {
-    "speaker": "Kevin",
-    "word": "bad",
-    "sentiment": "negative",
-    "n": -11
+    "words": [
+      {
+        "word": "nice",
+        "sentiment": "positive",
+        "weight": 28
+      },
+      {
+        "word": "cool",
+        "sentiment": "positive",
+        "weight": 21
+      },
+      {
+        "word": "awesome",
+        "sentiment": "positive",
+        "weight": 20
+      },
+      {
+        "word": "hot",
+        "sentiment": "positive",
+        "weight": 16
+      },
+      {
+        "word": "love",
+        "sentiment": "positive",
+        "weight": 16
+      },
+      {
+        "word": "whoa",
+        "sentiment": "positive",
+        "weight": 16
+      },
+      {
+        "word": "fine",
+        "sentiment": "positive",
+        "weight": 9
+      },
+      {
+        "word": "pretty",
+        "sentiment": "positive",
+        "weight": 9
+      },
+      {
+        "word": "warning",
+        "sentiment": "negative",
+        "weight": -9
+      },
+      {
+        "word": "bad",
+        "sentiment": "negative",
+        "weight": -11
+      }
+    ]
   },
   {
     "speaker": "Michael",
-    "word": "love",
-    "sentiment": "positive",
-    "n": 223
-  },
-  {
-    "speaker": "Michael",
-    "word": "wow",
-    "sentiment": "positive",
-    "n": 173
-  },
-  {
-    "speaker": "Michael",
-    "word": "fun",
-    "sentiment": "positive",
-    "n": 142
-  },
-  {
-    "speaker": "Michael",
-    "word": "nice",
-    "sentiment": "positive",
-    "n": 137
-  },
-  {
-    "speaker": "Michael",
-    "word": "fine",
-    "sentiment": "positive",
-    "n": 95
-  },
-  {
-    "speaker": "Michael",
-    "word": "cool",
-    "sentiment": "positive",
-    "n": 88
-  },
-  {
-    "speaker": "Michael",
-    "word": "happy",
-    "sentiment": "positive",
-    "n": 78
-  },
-  {
-    "speaker": "Michael",
-    "word": "hot",
-    "sentiment": "positive",
-    "n": 73
-  },
-  {
-    "speaker": "Michael",
-    "word": "wrong",
-    "sentiment": "negative",
-    "n": -79
-  },
-  {
-    "speaker": "Michael",
-    "word": "bad",
-    "sentiment": "negative",
-    "n": -97
+    "words": [
+      {
+        "word": "love",
+        "sentiment": "positive",
+        "weight": 223
+      },
+      {
+        "word": "wow",
+        "sentiment": "positive",
+        "weight": 173
+      },
+      {
+        "word": "fun",
+        "sentiment": "positive",
+        "weight": 142
+      },
+      {
+        "word": "nice",
+        "sentiment": "positive",
+        "weight": 137
+      },
+      {
+        "word": "fine",
+        "sentiment": "positive",
+        "weight": 95
+      },
+      {
+        "word": "cool",
+        "sentiment": "positive",
+        "weight": 88
+      },
+      {
+        "word": "happy",
+        "sentiment": "positive",
+        "weight": 78
+      },
+      {
+        "word": "hot",
+        "sentiment": "positive",
+        "weight": 73
+      },
+      {
+        "word": "wrong",
+        "sentiment": "negative",
+        "weight": -79
+      },
+      {
+        "word": "bad",
+        "sentiment": "negative",
+        "weight": -97
+      }
+    ]
   },
   {
     "speaker": "Oscar",
-    "word": "whoa",
-    "sentiment": "positive",
-    "n": 18
-  },
-  {
-    "speaker": "Oscar",
-    "word": "love",
-    "sentiment": "positive",
-    "n": 13
-  },
-  {
-    "speaker": "Oscar",
-    "word": "wow",
-    "sentiment": "positive",
-    "n": 11
-  },
-  {
-    "speaker": "Oscar",
-    "word": "nice",
-    "sentiment": "positive",
-    "n": 9
-  },
-  {
-    "speaker": "Oscar",
-    "word": "fine",
-    "sentiment": "positive",
-    "n": 8
-  },
-  {
-    "speaker": "Oscar",
-    "word": "happy",
-    "sentiment": "positive",
-    "n": 8
-  },
-  {
-    "speaker": "Oscar",
-    "word": "worth",
-    "sentiment": "positive",
-    "n": 6
-  },
-  {
-    "speaker": "Oscar",
-    "word": "funny",
-    "sentiment": "negative",
-    "n": -6
-  },
-  {
-    "speaker": "Oscar",
-    "word": "hell",
-    "sentiment": "negative",
-    "n": -6
-  },
-  {
-    "speaker": "Oscar",
-    "word": "offensive",
-    "sentiment": "negative",
-    "n": -6
-  },
-  {
-    "speaker": "Oscar",
-    "word": "hard",
-    "sentiment": "negative",
-    "n": -7
-  },
-  {
-    "speaker": "Oscar",
-    "word": "stupid",
-    "sentiment": "negative",
-    "n": -7
-  },
-  {
-    "speaker": "Oscar",
-    "word": "wrong",
-    "sentiment": "negative",
-    "n": -15
+    "words": [
+      {
+        "word": "whoa",
+        "sentiment": "positive",
+        "weight": 18
+      },
+      {
+        "word": "love",
+        "sentiment": "positive",
+        "weight": 13
+      },
+      {
+        "word": "wow",
+        "sentiment": "positive",
+        "weight": 11
+      },
+      {
+        "word": "nice",
+        "sentiment": "positive",
+        "weight": 9
+      },
+      {
+        "word": "fine",
+        "sentiment": "positive",
+        "weight": 8
+      },
+      {
+        "word": "happy",
+        "sentiment": "positive",
+        "weight": 8
+      },
+      {
+        "word": "worth",
+        "sentiment": "positive",
+        "weight": 6
+      },
+      {
+        "word": "funny",
+        "sentiment": "negative",
+        "weight": -6
+      },
+      {
+        "word": "hell",
+        "sentiment": "negative",
+        "weight": -6
+      },
+      {
+        "word": "offensive",
+        "sentiment": "negative",
+        "weight": -6
+      },
+      {
+        "word": "hard",
+        "sentiment": "negative",
+        "weight": -7
+      },
+      {
+        "word": "stupid",
+        "sentiment": "negative",
+        "weight": -7
+      },
+      {
+        "word": "wrong",
+        "sentiment": "negative",
+        "weight": -15
+      }
+    ]
   },
   {
     "speaker": "Pam",
-    "word": "love",
-    "sentiment": "positive",
-    "n": 75
-  },
-  {
-    "speaker": "Pam",
-    "word": "nice",
-    "sentiment": "positive",
-    "n": 60
-  },
-  {
-    "speaker": "Pam",
-    "word": "fine",
-    "sentiment": "positive",
-    "n": 54
-  },
-  {
-    "speaker": "Pam",
-    "word": "wow",
-    "sentiment": "positive",
-    "n": 50
-  },
-  {
-    "speaker": "Pam",
-    "word": "fun",
-    "sentiment": "positive",
-    "n": 36
-  },
-  {
-    "speaker": "Pam",
-    "word": "happy",
-    "sentiment": "positive",
-    "n": 33
-  },
-  {
-    "speaker": "Pam",
-    "word": "cool",
-    "sentiment": "positive",
-    "n": 29
-  },
-  {
-    "speaker": "Pam",
-    "word": "pretty",
-    "sentiment": "positive",
-    "n": 24
-  },
-  {
-    "speaker": "Pam",
-    "word": "funny",
-    "sentiment": "negative",
-    "n": -24
-  },
-  {
-    "speaker": "Pam",
-    "word": "wrong",
-    "sentiment": "negative",
-    "n": -25
-  },
-  {
-    "speaker": "Pam",
-    "word": "weird",
-    "sentiment": "negative",
-    "n": -31
+    "words": [
+      {
+        "word": "love",
+        "sentiment": "positive",
+        "weight": 75
+      },
+      {
+        "word": "nice",
+        "sentiment": "positive",
+        "weight": 60
+      },
+      {
+        "word": "fine",
+        "sentiment": "positive",
+        "weight": 54
+      },
+      {
+        "word": "wow",
+        "sentiment": "positive",
+        "weight": 50
+      },
+      {
+        "word": "fun",
+        "sentiment": "positive",
+        "weight": 36
+      },
+      {
+        "word": "happy",
+        "sentiment": "positive",
+        "weight": 33
+      },
+      {
+        "word": "cool",
+        "sentiment": "positive",
+        "weight": 29
+      },
+      {
+        "word": "pretty",
+        "sentiment": "positive",
+        "weight": 24
+      },
+      {
+        "word": "funny",
+        "sentiment": "negative",
+        "weight": -24
+      },
+      {
+        "word": "wrong",
+        "sentiment": "negative",
+        "weight": -25
+      },
+      {
+        "word": "weird",
+        "sentiment": "negative",
+        "weight": -31
+      }
+    ]
   },
   {
     "speaker": "Phyllis",
-    "word": "nice",
-    "sentiment": "positive",
-    "n": 13
-  },
-  {
-    "speaker": "Phyllis",
-    "word": "love",
-    "sentiment": "positive",
-    "n": 12
-  },
-  {
-    "speaker": "Phyllis",
-    "word": "fun",
-    "sentiment": "positive",
-    "n": 9
-  },
-  {
-    "speaker": "Phyllis",
-    "word": "wow",
-    "sentiment": "positive",
-    "n": 7
-  },
-  {
-    "speaker": "Phyllis",
-    "word": "cute",
-    "sentiment": "positive",
-    "n": 6
-  },
-  {
-    "speaker": "Phyllis",
-    "word": "pretty",
-    "sentiment": "positive",
-    "n": 4
-  },
-  {
-    "speaker": "Phyllis",
-    "word": "bad",
-    "sentiment": "negative",
-    "n": -4
-  },
-  {
-    "speaker": "Phyllis",
-    "word": "hell",
-    "sentiment": "negative",
-    "n": -5
-  },
-  {
-    "speaker": "Phyllis",
-    "word": "lost",
-    "sentiment": "negative",
-    "n": -5
-  },
-  {
-    "speaker": "Phyllis",
-    "word": "stupid",
-    "sentiment": "negative",
-    "n": -5
+    "words": [
+      {
+        "word": "nice",
+        "sentiment": "positive",
+        "weight": 13
+      },
+      {
+        "word": "love",
+        "sentiment": "positive",
+        "weight": 12
+      },
+      {
+        "word": "fun",
+        "sentiment": "positive",
+        "weight": 9
+      },
+      {
+        "word": "wow",
+        "sentiment": "positive",
+        "weight": 7
+      },
+      {
+        "word": "cute",
+        "sentiment": "positive",
+        "weight": 6
+      },
+      {
+        "word": "pretty",
+        "sentiment": "positive",
+        "weight": 4
+      },
+      {
+        "word": "bad",
+        "sentiment": "negative",
+        "weight": -4
+      },
+      {
+        "word": "hell",
+        "sentiment": "negative",
+        "weight": -5
+      },
+      {
+        "word": "lost",
+        "sentiment": "negative",
+        "weight": -5
+      },
+      {
+        "word": "stupid",
+        "sentiment": "negative",
+        "weight": -5
+      }
+    ]
   },
   {
     "speaker": "Ryan",
-    "word": "cool",
-    "sentiment": "positive",
-    "n": 18
-  },
-  {
-    "speaker": "Ryan",
-    "word": "love",
-    "sentiment": "positive",
-    "n": 18
-  },
-  {
-    "speaker": "Ryan",
-    "word": "whoa",
-    "sentiment": "positive",
-    "n": 12
-  },
-  {
-    "speaker": "Ryan",
-    "word": "fun",
-    "sentiment": "positive",
-    "n": 11
-  },
-  {
-    "speaker": "Ryan",
-    "word": "nice",
-    "sentiment": "positive",
-    "n": 11
-  },
-  {
-    "speaker": "Ryan",
-    "word": "amazing",
-    "sentiment": "positive",
-    "n": 8
-  },
-  {
-    "speaker": "Ryan",
-    "word": "fine",
-    "sentiment": "positive",
-    "n": 8
-  },
-  {
-    "speaker": "Ryan",
-    "word": "top",
-    "sentiment": "positive",
-    "n": 8
-  },
-  {
-    "speaker": "Ryan",
-    "word": "awesome",
-    "sentiment": "positive",
-    "n": 7
-  },
-  {
-    "speaker": "Ryan",
-    "word": "pretty",
-    "sentiment": "positive",
-    "n": 6
-  },
-  {
-    "speaker": "Ryan",
-    "word": "wow",
-    "sentiment": "positive",
-    "n": 6
-  },
-  {
-    "speaker": "Ryan",
-    "word": "bad",
-    "sentiment": "negative",
-    "n": -6
-  },
-  {
-    "speaker": "Ryan",
-    "word": "crazy",
-    "sentiment": "negative",
-    "n": -6
-  },
-  {
-    "speaker": "Ryan",
-    "word": "messed",
-    "sentiment": "negative",
-    "n": -6
+    "words": [
+      {
+        "word": "cool",
+        "sentiment": "positive",
+        "weight": 18
+      },
+      {
+        "word": "love",
+        "sentiment": "positive",
+        "weight": 18
+      },
+      {
+        "word": "whoa",
+        "sentiment": "positive",
+        "weight": 12
+      },
+      {
+        "word": "fun",
+        "sentiment": "positive",
+        "weight": 11
+      },
+      {
+        "word": "nice",
+        "sentiment": "positive",
+        "weight": 11
+      },
+      {
+        "word": "amazing",
+        "sentiment": "positive",
+        "weight": 8
+      },
+      {
+        "word": "fine",
+        "sentiment": "positive",
+        "weight": 8
+      },
+      {
+        "word": "top",
+        "sentiment": "positive",
+        "weight": 8
+      },
+      {
+        "word": "awesome",
+        "sentiment": "positive",
+        "weight": 7
+      },
+      {
+        "word": "pretty",
+        "sentiment": "positive",
+        "weight": 6
+      },
+      {
+        "word": "wow",
+        "sentiment": "positive",
+        "weight": 6
+      },
+      {
+        "word": "bad",
+        "sentiment": "negative",
+        "weight": -6
+      },
+      {
+        "word": "crazy",
+        "sentiment": "negative",
+        "weight": -6
+      },
+      {
+        "word": "messed",
+        "sentiment": "negative",
+        "weight": -6
+      }
+    ]
   }
 ]

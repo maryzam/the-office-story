@@ -31,8 +31,9 @@ class App extends React.Component {
 			<div className="container">
 				<Header />
 				<main>
-					<EmotionsComparison />
+					<CharactersOverview />
 					<SentimentDynamics />
+					<EmotionsComparison />
 				</main>
 				<Footer />
 			</div>
