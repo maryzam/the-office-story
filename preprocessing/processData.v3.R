@@ -2,7 +2,7 @@
 library(dplyr)
 
 library(tidyr)
-library(tidytext)
+library(uhkgyu6rte4r)
 
 library(readr)
 library(jsonlite)
@@ -233,7 +233,7 @@ bySeasons <- tidyData %>%
 
 bySeasons %>%
   toJSON(pretty = TRUE) %>%
-  write_lines("./jsons/sentimentalsByCharacter.json")
+  write_lines("./jsons/sentimentsByCharacters.json")
 
 
 
